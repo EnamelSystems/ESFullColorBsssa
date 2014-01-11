@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F500386E188130D4002EB35C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F500386D188130D4002EB35C /* Foundation.framework */; };
+		F5003870188130D4002EB35C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F500386F188130D4002EB35C /* CoreGraphics.framework */; };
+		F5003872188130D4002EB35C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003871188130D4002EB35C /* UIKit.framework */; };
+		F5003874188130D4002EB35C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003873188130D4002EB35C /* GLKit.framework */; };
+		F5003876188130D4002EB35C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003875188130D4002EB35C /* OpenGLES.framework */; };
+		F500387C188130D4002EB35C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F500387A188130D4002EB35C /* InfoPlist.strings */; };
+		F500387E188130D4002EB35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F500387D188130D4002EB35C /* main.m */; };
+		F5003882188130D4002EB35C /* FCBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5003881188130D4002EB35C /* FCBAppDelegate.m */; };
+		F5003885188130D4002EB35C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5003883188130D4002EB35C /* Main_iPhone.storyboard */; };
+		F5003888188130D4002EB35C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5003886188130D4002EB35C /* Main_iPad.storyboard */; };
+		F500388A188130D4002EB35C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F5003889188130D4002EB35C /* Shader.fsh */; };
+		F500388C188130D4002EB35C /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F500388B188130D4002EB35C /* Shader.vsh */; };
+		F500388F188130D4002EB35C /* FCBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F500388E188130D4002EB35C /* FCBViewController.m */; };
+		F5003891188130D4002EB35C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5003890188130D4002EB35C /* Images.xcassets */; };
+		F5003898188130D4002EB35C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003897188130D4002EB35C /* XCTest.framework */; };
+		F5003899188130D4002EB35C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F500386D188130D4002EB35C /* Foundation.framework */; };
+		F500389A188130D4002EB35C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003871188130D4002EB35C /* UIKit.framework */; };
+		F50038A2188130D4002EB35C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50038A0188130D4002EB35C /* InfoPlist.strings */; };
+		F50038A4188130D4002EB35C /* ESFullColorBossaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50038A3188130D4002EB35C /* ESFullColorBossaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F500389B188130D4002EB35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5003862188130D4002EB35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5003869188130D4002EB35C;
+			remoteInfo = ESFullColorBossa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F500386A188130D4002EB35C /* ESFullColorBossa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESFullColorBossa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F500386D188130D4002EB35C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F500386F188130D4002EB35C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5003871188130D4002EB35C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5003873188130D4002EB35C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F5003875188130D4002EB35C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F5003879188130D4002EB35C /* ESFullColorBossa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESFullColorBossa-Info.plist"; sourceTree = "<group>"; };
+		F500387B188130D4002EB35C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F500387D188130D4002EB35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F500387F188130D4002EB35C /* ESFullColorBossa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESFullColorBossa-Prefix.pch"; sourceTree = "<group>"; };
+		F5003880188130D4002EB35C /* FCBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBAppDelegate.h; sourceTree = "<group>"; };
+		F5003881188130D4002EB35C /* FCBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAppDelegate.m; sourceTree = "<group>"; };
+		F5003884188130D4002EB35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		F5003887188130D4002EB35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		F5003889188130D4002EB35C /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		F500388B188130D4002EB35C /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		F500388D188130D4002EB35C /* FCBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBViewController.h; sourceTree = "<group>"; };
+		F500388E188130D4002EB35C /* FCBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBViewController.m; sourceTree = "<group>"; };
+		F5003890188130D4002EB35C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5003896188130D4002EB35C /* ESFullColorBossaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESFullColorBossaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5003897188130D4002EB35C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F500389F188130D4002EB35C /* ESFullColorBossaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESFullColorBossaTests-Info.plist"; sourceTree = "<group>"; };
+		F50038A1188130D4002EB35C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F50038A3188130D4002EB35C /* ESFullColorBossaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESFullColorBossaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5003867188130D4002EB35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5003876188130D4002EB35C /* OpenGLES.framework in Frameworks */,
+				F5003870188130D4002EB35C /* CoreGraphics.framework in Frameworks */,
+				F5003872188130D4002EB35C /* UIKit.framework in Frameworks */,
+				F5003874188130D4002EB35C /* GLKit.framework in Frameworks */,
+				F500386E188130D4002EB35C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5003893188130D4002EB35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5003898188130D4002EB35C /* XCTest.framework in Frameworks */,
+				F500389A188130D4002EB35C /* UIKit.framework in Frameworks */,
+				F5003899188130D4002EB35C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5003861188130D4002EB35C = {
+			isa = PBXGroup;
+			children = (
+				F5003877188130D4002EB35C /* ESFullColorBossa */,
+				F500389D188130D4002EB35C /* ESFullColorBossaTests */,
+				F500386C188130D4002EB35C /* Frameworks */,
+				F500386B188130D4002EB35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F500386B188130D4002EB35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F500386A188130D4002EB35C /* ESFullColorBossa.app */,
+				F5003896188130D4002EB35C /* ESFullColorBossaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F500386C188130D4002EB35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F500386D188130D4002EB35C /* Foundation.framework */,
+				F500386F188130D4002EB35C /* CoreGraphics.framework */,
+				F5003871188130D4002EB35C /* UIKit.framework */,
+				F5003873188130D4002EB35C /* GLKit.framework */,
+				F5003875188130D4002EB35C /* OpenGLES.framework */,
+				F5003897188130D4002EB35C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5003877188130D4002EB35C /* ESFullColorBossa */ = {
+			isa = PBXGroup;
+			children = (
+				F5003880188130D4002EB35C /* FCBAppDelegate.h */,
+				F5003881188130D4002EB35C /* FCBAppDelegate.m */,
+				F5003883188130D4002EB35C /* Main_iPhone.storyboard */,
+				F5003886188130D4002EB35C /* Main_iPad.storyboard */,
+				F5003889188130D4002EB35C /* Shader.fsh */,
+				F500388B188130D4002EB35C /* Shader.vsh */,
+				F500388D188130D4002EB35C /* FCBViewController.h */,
+				F500388E188130D4002EB35C /* FCBViewController.m */,
+				F5003890188130D4002EB35C /* Images.xcassets */,
+				F5003878188130D4002EB35C /* Supporting Files */,
+			);
+			path = ESFullColorBossa;
+			sourceTree = "<group>";
+		};
+		F5003878188130D4002EB35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5003879188130D4002EB35C /* ESFullColorBossa-Info.plist */,
+				F500387A188130D4002EB35C /* InfoPlist.strings */,
+				F500387D188130D4002EB35C /* main.m */,
+				F500387F188130D4002EB35C /* ESFullColorBossa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F500389D188130D4002EB35C /* ESFullColorBossaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50038A3188130D4002EB35C /* ESFullColorBossaTests.m */,
+				F500389E188130D4002EB35C /* Supporting Files */,
+			);
+			path = ESFullColorBossaTests;
+			sourceTree = "<group>";
+		};
+		F500389E188130D4002EB35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F500389F188130D4002EB35C /* ESFullColorBossaTests-Info.plist */,
+				F50038A0188130D4002EB35C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5003869188130D4002EB35C /* ESFullColorBossa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50038A7188130D4002EB35C /* Build configuration list for PBXNativeTarget "ESFullColorBossa" */;
+			buildPhases = (
+				F5003866188130D4002EB35C /* Sources */,
+				F5003867188130D4002EB35C /* Frameworks */,
+				F5003868188130D4002EB35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESFullColorBossa;
+			productName = ESFullColorBossa;
+			productReference = F500386A188130D4002EB35C /* ESFullColorBossa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5003895188130D4002EB35C /* ESFullColorBossaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50038AA188130D4002EB35C /* Build configuration list for PBXNativeTarget "ESFullColorBossaTests" */;
+			buildPhases = (
+				F5003892188130D4002EB35C /* Sources */,
+				F5003893188130D4002EB35C /* Frameworks */,
+				F5003894188130D4002EB35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F500389C188130D4002EB35C /* PBXTargetDependency */,
+			);
+			name = ESFullColorBossaTests;
+			productName = ESFullColorBossaTests;
+			productReference = F5003896188130D4002EB35C /* ESFullColorBossaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5003862188130D4002EB35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FCB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Enamel Systems";
+				TargetAttributes = {
+					F5003895188130D4002EB35C = {
+						TestTargetID = F5003869188130D4002EB35C;
+					};
+				};
+			};
+			buildConfigurationList = F5003865188130D4002EB35C /* Build configuration list for PBXProject "ESFullColorBossa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5003861188130D4002EB35C;
+			productRefGroup = F500386B188130D4002EB35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5003869188130D4002EB35C /* ESFullColorBossa */,
+				F5003895188130D4002EB35C /* ESFullColorBossaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5003868188130D4002EB35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F500388A188130D4002EB35C /* Shader.fsh in Resources */,
+				F5003888188130D4002EB35C /* Main_iPad.storyboard in Resources */,
+				F5003885188130D4002EB35C /* Main_iPhone.storyboard in Resources */,
+				F5003891188130D4002EB35C /* Images.xcassets in Resources */,
+				F500387C188130D4002EB35C /* InfoPlist.strings in Resources */,
+				F500388C188130D4002EB35C /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5003894188130D4002EB35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50038A2188130D4002EB35C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5003866188130D4002EB35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5003882188130D4002EB35C /* FCBAppDelegate.m in Sources */,
+				F500387E188130D4002EB35C /* main.m in Sources */,
+				F500388F188130D4002EB35C /* FCBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5003892188130D4002EB35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50038A4188130D4002EB35C /* ESFullColorBossaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F500389C188130D4002EB35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5003869188130D4002EB35C /* ESFullColorBossa */;
+			targetProxy = F500389B188130D4002EB35C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F500387A188130D4002EB35C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F500387B188130D4002EB35C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5003883188130D4002EB35C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5003884188130D4002EB35C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F5003886188130D4002EB35C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5003887188130D4002EB35C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F50038A0188130D4002EB35C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50038A1188130D4002EB35C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50038A5188130D4002EB35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50038A6188130D4002EB35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50038A8188130D4002EB35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESFullColorBossa/ESFullColorBossa-Prefix.pch";
+				INFOPLIST_FILE = "ESFullColorBossa/ESFullColorBossa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F50038A9188130D4002EB35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESFullColorBossa/ESFullColorBossa-Prefix.pch";
+				INFOPLIST_FILE = "ESFullColorBossa/ESFullColorBossa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F50038AB188130D4002EB35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ESFullColorBossa.app/ESFullColorBossa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESFullColorBossa/ESFullColorBossa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ESFullColorBossaTests/ESFullColorBossaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F50038AC188130D4002EB35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ESFullColorBossa.app/ESFullColorBossa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESFullColorBossa/ESFullColorBossa-Prefix.pch";
+				INFOPLIST_FILE = "ESFullColorBossaTests/ESFullColorBossaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5003865188130D4002EB35C /* Build configuration list for PBXProject "ESFullColorBossa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50038A5188130D4002EB35C /* Debug */,
+				F50038A6188130D4002EB35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50038A7188130D4002EB35C /* Build configuration list for PBXNativeTarget "ESFullColorBossa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50038A8188130D4002EB35C /* Debug */,
+				F50038A9188130D4002EB35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F50038AA188130D4002EB35C /* Build configuration list for PBXNativeTarget "ESFullColorBossaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50038AB188130D4002EB35C /* Debug */,
+				F50038AC188130D4002EB35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5003862188130D4002EB35C /* Project object */;
+}
