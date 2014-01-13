@@ -17,8 +17,6 @@
 		F5003882188130D4002EB35C /* FCBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5003881188130D4002EB35C /* FCBAppDelegate.m */; };
 		F5003885188130D4002EB35C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5003883188130D4002EB35C /* Main_iPhone.storyboard */; };
 		F5003888188130D4002EB35C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5003886188130D4002EB35C /* Main_iPad.storyboard */; };
-		F500388A188130D4002EB35C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F5003889188130D4002EB35C /* Shader.fsh */; };
-		F500388C188130D4002EB35C /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F500388B188130D4002EB35C /* Shader.vsh */; };
 		F500388F188130D4002EB35C /* FCBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F500388E188130D4002EB35C /* FCBViewController.m */; };
 		F5003891188130D4002EB35C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5003890188130D4002EB35C /* Images.xcassets */; };
 		F5003898188130D4002EB35C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003897188130D4002EB35C /* XCTest.framework */; };
@@ -26,6 +24,9 @@
 		F500389A188130D4002EB35C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5003871188130D4002EB35C /* UIKit.framework */; };
 		F50038A2188130D4002EB35C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50038A0188130D4002EB35C /* InfoPlist.strings */; };
 		F50038A4188130D4002EB35C /* ESFullColorBossaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50038A3188130D4002EB35C /* ESFullColorBossaTests.m */; };
+		F54B37741882C0C000691E55 /* PatchTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B37731882C0C000691E55 /* PatchTime.m */; };
+		F54B37771882C3BC00691E55 /* Interporation.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B37761882C3BC00691E55 /* Interporation.m */; };
+		F54B377A1882DC3200691E55 /* ColorMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = F54B37791882DC3200691E55 /* ColorMixer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,6 @@
 		F5003881188130D4002EB35C /* FCBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBAppDelegate.m; sourceTree = "<group>"; };
 		F5003884188130D4002EB35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		F5003887188130D4002EB35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		F5003889188130D4002EB35C /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		F500388B188130D4002EB35C /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		F500388D188130D4002EB35C /* FCBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBViewController.h; sourceTree = "<group>"; };
 		F500388E188130D4002EB35C /* FCBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBViewController.m; sourceTree = "<group>"; };
 		F5003890188130D4002EB35C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -63,6 +62,12 @@
 		F500389F188130D4002EB35C /* ESFullColorBossaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESFullColorBossaTests-Info.plist"; sourceTree = "<group>"; };
 		F50038A1188130D4002EB35C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F50038A3188130D4002EB35C /* ESFullColorBossaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESFullColorBossaTests.m; sourceTree = "<group>"; };
+		F54B37721882C0C000691E55 /* PatchTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchTime.h; sourceTree = "<group>"; };
+		F54B37731882C0C000691E55 /* PatchTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatchTime.m; sourceTree = "<group>"; };
+		F54B37751882C3BC00691E55 /* Interporation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interporation.h; sourceTree = "<group>"; };
+		F54B37761882C3BC00691E55 /* Interporation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interporation.m; sourceTree = "<group>"; };
+		F54B37781882DC3200691E55 /* ColorMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMixer.h; sourceTree = "<group>"; };
+		F54B37791882DC3200691E55 /* ColorMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorMixer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +135,14 @@
 				F5003881188130D4002EB35C /* FCBAppDelegate.m */,
 				F5003883188130D4002EB35C /* Main_iPhone.storyboard */,
 				F5003886188130D4002EB35C /* Main_iPad.storyboard */,
-				F5003889188130D4002EB35C /* Shader.fsh */,
-				F500388B188130D4002EB35C /* Shader.vsh */,
 				F500388D188130D4002EB35C /* FCBViewController.h */,
 				F500388E188130D4002EB35C /* FCBViewController.m */,
+				F54B37721882C0C000691E55 /* PatchTime.h */,
+				F54B37731882C0C000691E55 /* PatchTime.m */,
+				F54B37751882C3BC00691E55 /* Interporation.h */,
+				F54B37761882C3BC00691E55 /* Interporation.m */,
+				F54B37781882DC3200691E55 /* ColorMixer.h */,
+				F54B37791882DC3200691E55 /* ColorMixer.m */,
 				F5003890188130D4002EB35C /* Images.xcassets */,
 				F5003878188130D4002EB35C /* Supporting Files */,
 			);
@@ -246,12 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F500388A188130D4002EB35C /* Shader.fsh in Resources */,
 				F5003888188130D4002EB35C /* Main_iPad.storyboard in Resources */,
 				F5003885188130D4002EB35C /* Main_iPhone.storyboard in Resources */,
 				F5003891188130D4002EB35C /* Images.xcassets in Resources */,
 				F500387C188130D4002EB35C /* InfoPlist.strings in Resources */,
-				F500388C188130D4002EB35C /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5003882188130D4002EB35C /* FCBAppDelegate.m in Sources */,
+				F54B37741882C0C000691E55 /* PatchTime.m in Sources */,
 				F500387E188130D4002EB35C /* main.m in Sources */,
+				F54B377A1882DC3200691E55 /* ColorMixer.m in Sources */,
 				F500388F188130D4002EB35C /* FCBViewController.m in Sources */,
+				F54B37771882C3BC00691E55 /* Interporation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +501,7 @@
 				F50038A9188130D4002EB35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F50038AA188130D4002EB35C /* Build configuration list for PBXNativeTarget "ESFullColorBossaTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +510,7 @@
 				F50038AC188130D4002EB35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

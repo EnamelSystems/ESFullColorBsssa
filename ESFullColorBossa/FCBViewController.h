@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
+#import "Interporation.h"
 
-@interface FCBViewController : GLKViewController
+@interface FCBViewController : GLKViewController <InterporationDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
 
 @end
