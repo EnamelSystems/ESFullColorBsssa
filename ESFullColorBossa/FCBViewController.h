@@ -12,5 +12,4 @@
 
 @interface FCBViewController : GLKViewController <InterporationDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
-
 @end

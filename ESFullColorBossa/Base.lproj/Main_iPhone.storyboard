@@ -16,14 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="textLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1x-Dg-CjH">
-                                <rect key="frame" x="20" y="245" width="280" height="54"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="textLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1x-Dg-CjH">
+                                <rect key="frame" x="20" y="274" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="D1x-Dg-CjH" secondAttribute="trailing" constant="20" symbolic="YES" id="3hd-ZK-MK4"/>
+                            <constraint firstAttribute="centerY" secondItem="D1x-Dg-CjH" secondAttribute="centerY" id="fYg-TJ-LhS"/>
+                            <constraint firstItem="D1x-Dg-CjH" firstAttribute="leading" secondItem="bdc-N1-crn" secondAttribute="leading" constant="20" symbolic="YES" id="hKT-fe-SAU"/>
+                        </constraints>
                     </glkView>
                     <connections>
                         <outlet property="textLabel" destination="D1x-Dg-CjH" id="Foy-He-Tu0"/>
